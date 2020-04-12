@@ -1,7 +1,7 @@
 {
   "name": "pannellum-react-ssr",
   "version": "1.0.0",
-  "description": "Pannellum React Component",
+  "description": "Pannellum React Component with SSR try catch",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [

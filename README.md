@@ -3,6 +3,8 @@
 [![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
 
+This is a slightly modified version of Pannellum React that simplly allows Gatsby to build all credit goes to the original authors.
+
 React Component library for the [Pannellum](https://github.com/mpetroff/pannellum/) project.
 
 _Special thanks to [Matthew Petroff](https://github.com/mpetroff)_
