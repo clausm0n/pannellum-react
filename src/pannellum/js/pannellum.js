@@ -20,7 +20,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-
+try{
 window.pannellum = (function(window, document, undefined) {
 
   
@@ -3046,3 +3046,7 @@ window.pannellum = (function(window, document, undefined) {
   };
 
 })(window, document);
+}
+catch(e){
+  console.log(e);
+}

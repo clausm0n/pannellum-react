@@ -2,7 +2,7 @@
  * Provides requestAnimationFrame in a cross browser way.
  * http://paulirish.com/2011/requestanimationframe-for-smart-animating/
  */
-
+try{
 if ( !window.requestAnimationFrame ) {
 
     window.requestAnimationFrame = ( function() {
@@ -19,4 +19,8 @@ if ( !window.requestAnimationFrame ) {
 
     } )();
 
+}
+}
+catch(e){
+  console.log(e);
 }
